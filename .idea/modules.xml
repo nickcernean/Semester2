@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/A Bar/A Bar.iml" filepath="$PROJECT_DIR$/A Bar/A Bar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Billy's Car_v1/Billy's Car_v1.iml" filepath="$PROJECT_DIR$/Billy's Car_v1/Billy's Car_v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BurgerBar/BurgerBar.iml" filepath="$PROJECT_DIR$/BurgerBar/BurgerBar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CharApp-MVVMObserver/CharApp-MVVMObserver.iml" filepath="$PROJECT_DIR$/CharApp-MVVMObserver/CharApp-MVVMObserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Computer Simulator/Computer Simulator.iml" filepath="$PROJECT_DIR$/Computer Simulator/Computer Simulator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Confession Chair/Confession Chair.iml" filepath="$PROJECT_DIR$/Confession Chair/Confession Chair.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CounterIncDecSync/CounterIncDecSync.iml" filepath="$PROJECT_DIR$/CounterIncDecSync/CounterIncDecSync.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Observer-Football/Observer-Football.iml" filepath="$PROJECT_DIR$/Observer-Football/Observer-Football.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Observer-TemperatureConverter_v2/Observer-TemperatureConverter_v2.iml" filepath="$PROJECT_DIR$/Observer-TemperatureConverter_v2/Observer-TemperatureConverter_v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Observer-TrafficLight/Observer-TrafficLight.iml" filepath="$PROJECT_DIR$/Observer-TrafficLight/Observer-TrafficLight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObserverThermometerGUI/ObserverThermometerGUI.iml" filepath="$PROJECT_DIR$/ObserverThermometerGUI/ObserverThermometerGUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PieChartApp/PieChartApp.iml" filepath="$PROJECT_DIR$/PieChartApp/PieChartApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SDJ2-Assignment/SDJ2-Assignment.iml" filepath="$PROJECT_DIR$/SDJ2-Assignment/SDJ2-Assignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Semester2.iml" filepath="$PROJECT_DIR$/Semester2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Socket LoginServer/Socket Login.iml" filepath="$PROJECT_DIR$/Socket LoginServer/Socket Login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Socket Login Client/Socket Login Client.iml" filepath="$PROJECT_DIR$/Socket Login Client/Socket Login Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SocketChatClient/SocketChatClient.iml" filepath="$PROJECT_DIR$/SocketChatClient/SocketChatClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SocketChatServer/SocketChatServer.iml" filepath="$PROJECT_DIR$/SocketChatServer/SocketChatServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SocketTasklist/SocketTasklist.iml" filepath="$PROJECT_DIR$/SocketTasklist/SocketTasklist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SocketUDP_Uppercase/SocketUDP_Uppercase.iml" filepath="$PROJECT_DIR$/SocketUDP_Uppercase/SocketUDP_Uppercase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sockets Login-Json/Sockets Login-Json.iml" filepath="$PROJECT_DIR$/Sockets Login-Json/Sockets Login-Json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sockets-Uppercase/Sockets-Uppercase.iml" filepath="$PROJECT_DIR$/Sockets-Uppercase/Sockets-Uppercase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sockets_ChatSystem/Sockets_ChatSystem.iml" filepath="$PROJECT_DIR$/Sockets_ChatSystem/Sockets_ChatSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sockets_Chat_Multithreading/Sockets_Chat_Multithreading.iml" filepath="$PROJECT_DIR$/Sockets_Chat_Multithreading/Sockets_Chat_Multithreading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sockets_Counting/Sockets_Counting.iml" filepath="$PROJECT_DIR$/Sockets_Counting/Sockets_Counting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sockets_Login_Multithread/Sockets_Login_Multithread.iml" filepath="$PROJECT_DIR$/Sockets_Login_Multithread/Sockets_Login_Multithread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sockets_UpperLowerCase/Sockets_UpperLowerCase.iml" filepath="$PROJECT_DIR$/Sockets_UpperLowerCase/Sockets_UpperLowerCase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/State-Door_v1/State-Door_v1.iml" filepath="$PROJECT_DIR$/State-Door_v1/State-Door_v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/State-Door_v2/State-Door_v2.iml" filepath="$PROJECT_DIR$/State-Door_v2/State-Door_v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/State-Phone_v1/State-Phone_v1.iml" filepath="$PROJECT_DIR$/State-Phone_v1/State-Phone_v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/State-Phone_v2/State-Phone_v2.iml" filepath="$PROJECT_DIR$/State-Phone_v2/State-Phone_v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TaskList/TaskList.iml" filepath="$PROJECT_DIR$/TaskList/TaskList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threads-Adding/Threads-Adding.iml" filepath="$PROJECT_DIR$/Threads-Adding/Threads-Adding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threads-CounterIncrementator_v1/Threads-CounterIncrementator_v1.iml" filepath="$PROJECT_DIR$/Threads-CounterIncrementator_v1/Threads-CounterIncrementator_v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threads-Thermometer/Threads-TemperatureConverter_v1.iml" filepath="$PROJECT_DIR$/Threads-Thermometer/Threads-TemperatureConverter_v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threads-Thermometer01/Threads-Thermometer01.iml" filepath="$PROJECT_DIR$/Threads-Thermometer01/Threads-Thermometer01.iml" />
+    </modules>
+  </component>
+</project>
