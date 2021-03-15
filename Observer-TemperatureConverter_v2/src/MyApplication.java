@@ -1,9 +1,9 @@
-import external.ObservableClock;
+
 import javafx.application.Application;
 import javafx.stage.Stage;
 import model.TemperatureModel;
 import model.TemperatureModelManager;
-import view.TemperatureVIewController1;
+
 import view.ViewHandler;
 
 public class MyApplication extends Application

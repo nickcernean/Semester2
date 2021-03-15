@@ -1,20 +1,18 @@
 package view;
 
-import external.ObservableClock;
-import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.Region;
 import javafx.stage.Stage;
 import model.TemperatureModel;
 
-public class ViewHandler extends Application
+public class ViewHandler
 {
   private Stage primaryStage;
   private Scene currentScene;
-  private TemperatureVIewController1 temperatureViewController;
+
   private TemperatureModel model;
-  public ObservableClock observableClock;
+  private TemperatureViewController temperatureViewController;
 
   public ViewHandler(TemperatureModel model)
   {
@@ -25,6 +23,7 @@ public class ViewHandler extends Application
   {
     this.primaryStage = primaryStage;
     this.currentScene = new Scene(new Region());
+
     openView("convert");
   }
 
@@ -53,6 +52,7 @@ public class ViewHandler extends Application
 
   private Region loadTemperatureView(String fxmlFile)
   {
+
     if (temperatureViewController == null)
     {
       try

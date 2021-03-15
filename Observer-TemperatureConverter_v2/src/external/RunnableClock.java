@@ -2,21 +2,20 @@ package external;
 
 import javafx.application.Platform;
 
-
-
-import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
-public class ObservableClock implements Runnable, PropertyChangeSubject
+public class RunnableClock implements Runnable, PropertyChangeSubject
 {
   private DateTimeFormatter timeFormatter;
-  PropertyChangeSupport support;
 
-  public ObservableClock()
+  private PropertyChangeSupport support;
+
+  public RunnableClock()
   {
+
     this.timeFormatter = DateTimeFormatter.ofPattern("HH:mm:ss");
     this.support = new PropertyChangeSupport(this);
   }
@@ -27,11 +26,10 @@ public class ObservableClock implements Runnable, PropertyChangeSubject
     {
       LocalTime time = LocalTime.now();
       String timeString = time.format(timeFormatter);
-      String oldValue=timeString;
       sleep();
-      Platform.runLater(() -> support
-          .firePropertyChange("TimeString",oldValue,timeString));
 
+      Platform.runLater(
+          () -> support.firePropertyChange("TimeString", null, timeString));
     }
   }
 
@@ -46,6 +44,7 @@ public class ObservableClock implements Runnable, PropertyChangeSubject
       e.printStackTrace();
     }
   }
+
   @Override public void addPropertyChangeListener(String eventName,
       PropertyChangeListener listener)
   {
@@ -77,7 +76,6 @@ public class ObservableClock implements Runnable, PropertyChangeSubject
     {
       support.removePropertyChangeListener(eventName, listener);
     }
-
   }
 
   @Override public void removePropertyChangeListener(
@@ -85,5 +83,4 @@ public class ObservableClock implements Runnable, PropertyChangeSubject
   {
     support.removePropertyChangeListener(listener);
   }
-
 }

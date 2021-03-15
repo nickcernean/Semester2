@@ -4,8 +4,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.text.*?>
-
-<FlowPane userData="Temperature conversion" fx:controller="view.TemperatureVIewController1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="230.0" prefWidth="475.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"  >
+<FlowPane userData="Temperature conversion" fx:controller="view.TemperatureViewController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="230.0" prefWidth="475.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"  >
    <children>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="173.0" prefWidth="480.0">
                <children>

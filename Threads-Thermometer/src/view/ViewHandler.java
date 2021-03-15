@@ -8,7 +8,7 @@ import javafx.scene.layout.Region;
 import javafx.stage.Stage;
 import model.TemperatureModel;
 
-public class ViewHandler extends Application
+public class ViewHandler
 {
   private Stage primaryStage;
   private Scene currentScene;

@@ -1,18 +1,17 @@
 package view;
 
-import external.ObservableClock;
+import external.RunnableClock;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.Region;
 import model.TemperatureModel;
-import utility.observer.subject.PropertyChangeSubject;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 
-public class TemperatureVIewController1 implements PropertyChangeListener
+public class TemperatureViewController implements PropertyChangeListener
 {
   @FXML private TextField textInput;
 
@@ -23,15 +22,12 @@ public class TemperatureVIewController1 implements PropertyChangeListener
   private TemperatureModel model;
   private Region root;
   private ViewHandler viewHandler;
-  private ObservableClock observableClock;
+  private RunnableClock runnableClock;
 
-
-  public TemperatureVIewController1()
+  public TemperatureViewController()
   {
-    this.observableClock = new ObservableClock();
-    observableClock
-        .addPropertyChangeListener("TimeString", evt ->propertyChange(ev));
-
+    this.runnableClock = new RunnableClock();
+    runnableClock.addPropertyChangeListener("TimeString",evt -> propertyChange(evt));
   }
 
   public void init(ViewHandler viewHandler, TemperatureModel model, Region root)
@@ -39,7 +35,8 @@ public class TemperatureVIewController1 implements PropertyChangeListener
     this.viewHandler = viewHandler;
     this.model = model;
     this.root = root;
-    Thread thread = new Thread(observableClock);
+
+    Thread thread = new Thread(runnableClock);
     thread.setDaemon(true);
     thread.start();
 
@@ -89,8 +86,7 @@ public class TemperatureVIewController1 implements PropertyChangeListener
 
   @Override public void propertyChange(PropertyChangeEvent evt)
   {
-    String newValue=(String)evt.getNewValue();
-    Platform
-        .runLater(() -> labelTimer.setText(newValue));
+    String timevalue = (String) evt.getNewValue();
+    Platform.runLater(() -> labelTimer.setText(timevalue));
   }
 }

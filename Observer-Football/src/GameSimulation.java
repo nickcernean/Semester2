@@ -41,7 +41,6 @@ public class GameSimulation
     {
       fans[i] = new FotballFan("Fan" + (i + 1), game, true);
       game.addProperrtyChangeListener("Home",fans[i]);
-
     }
     game.addProperrtyChangeListener("SCORE",scoreboard);
     for (int i = fans.length * 2 / 3; i < fans.length; i++)
