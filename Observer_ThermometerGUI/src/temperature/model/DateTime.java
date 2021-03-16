@@ -1,4 +1,4 @@
-package model;
+package temperature.model;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

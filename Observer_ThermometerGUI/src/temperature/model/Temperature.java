@@ -1,4 +1,4 @@
-package model;
+package temperature.model;
 public class Temperature
 {
    private String id;

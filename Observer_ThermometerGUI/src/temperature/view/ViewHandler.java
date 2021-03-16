@@ -1,18 +1,18 @@
-package view;
+package temperature.view;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.Region;
 import javafx.stage.Stage;
-import mediator.TemperatureModel;
+import temperature.mediator.TemperatureModel;
 
 public class ViewHandler extends Application
 {
   private Stage primaryStage;
   private Scene currentScene;
 
-  private TemperatureViewController1 temperatureViewController;
+  private TemperatureViewController temperatureViewController;
   private TemperatureModel model;
 
   public ViewHandler(TemperatureModel model)

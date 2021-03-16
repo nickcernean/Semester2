@@ -1,13 +1,17 @@
-package view;
+package temperature.view;
 
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.Region;
-import mediator.TemperatureModel;
-import model.Temperature;
+import temperature.mediator.TemperatureModel;
+import temperature.model.Temperature;
 
-public class TemperatureViewController1
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+
+public class TemperatureViewController implements PropertyChangeListener
 {
   @FXML private Label outputLabel;
   @FXML private TextField filterField;
@@ -18,7 +22,7 @@ public class TemperatureViewController1
   private Region root;
   private String thermometerId;
 
-  public TemperatureViewController1()
+  public TemperatureViewController()
   {
   }
 
@@ -26,6 +30,7 @@ public class TemperatureViewController1
   {
     this.viewHandler = viewHandler;
     this.model = model;
+    model.addPropertyChangeListener("Update", evt -> propertyChange(evt));
     this.root = root;
     thermometerId = null;
   }
@@ -40,7 +45,7 @@ public class TemperatureViewController1
     return root;
   }
 
-  @FXML private void updateButtonPressed()
+   private void updateButtonPressed()
   {
     Temperature t = model.getLastInsertedTemperature(thermometerId);
     if (t != null)
@@ -71,5 +76,11 @@ public class TemperatureViewController1
     }
     filterField.setText(null);
     updateButtonPressed();
+  }
+
+  @Override public void propertyChange(PropertyChangeEvent evt)
+  {
+
+    Platform.runLater(() ->updateButtonPressed());
   }
 }
