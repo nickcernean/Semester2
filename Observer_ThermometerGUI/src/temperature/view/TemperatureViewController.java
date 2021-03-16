@@ -37,7 +37,7 @@ public class TemperatureViewController implements PropertyChangeListener
 
   public void reset()
   {
-    // empty
+    model.removePropertyChangeListener(this);
   }
 
   public Region getRoot()
