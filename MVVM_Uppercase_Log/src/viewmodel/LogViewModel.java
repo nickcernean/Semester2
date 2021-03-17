@@ -16,6 +16,7 @@ public class LogViewModel implements PropertyChangeListener
   public LogViewModel(Model model)
   {
     this.model = model;
+    this.model.addListener(this);
     this.logs = FXCollections.observableArrayList();
   }
 
@@ -32,7 +33,7 @@ public class LogViewModel implements PropertyChangeListener
   @Override public void propertyChange(PropertyChangeEvent evt)
   {
     Platform.runLater(() -> {
-      logs.add((String) evt.getNewValue());
+      logs.add(0, evt.getNewValue()+"");
     });
 
   }

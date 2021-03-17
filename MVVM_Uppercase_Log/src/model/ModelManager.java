@@ -25,7 +25,7 @@ public class ModelManager implements Model
   {
     String logValue = converter.getLogSize() + ": " + log;
     converter.addLog(logValue);
-    changeSupport.firePropertyChange(logValue, null, logValue);
+    changeSupport.firePropertyChange("add", null, logValue);
   }
 
   @Override public void addListener(PropertyChangeListener listener)

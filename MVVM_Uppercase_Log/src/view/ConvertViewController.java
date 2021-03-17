@@ -29,7 +29,7 @@ public class ConvertViewController
 
   public void reset()
   {
-    viewModel.clear();
+    ///
   }
 
   public Region getRoot()

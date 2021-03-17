@@ -22,7 +22,7 @@ public class LogViewController
 
   public void reset()
   {
-    logViewModel.clear();
+    ////
   }
 
   public Region getRoot()
