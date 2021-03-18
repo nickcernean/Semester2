@@ -47,7 +47,7 @@ public class TemperatureViewModel implements PropertyChangeListener
 
   public void getValue()
   {
-    Temperature t = model.getLastInsertedTemperature(thermometerId.get());
+    Temperature t = model.getLastInsertedTemperature(temperature.get());
     if (t != null)
     {
       filterValue.set(t.toString());
@@ -66,9 +66,9 @@ public class TemperatureViewModel implements PropertyChangeListener
       input = null;
     }
     temperature.set(input);
-    if (thermometerId == null)
+    if (temperature == null)
     {
-      thermometerId.set("All");
+      filterValue.set("All");
     }
     else
     {

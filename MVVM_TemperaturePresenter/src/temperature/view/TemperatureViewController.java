@@ -30,8 +30,8 @@ public class TemperatureViewController
     this.root = root;
     thermometerId = null;
     outputLabel.textProperty().bind(viewModel.getFilterValueProperty());
-    filterLabel.textProperty().bind(viewModel.getThermometerIdProperty());
-    filterField.textProperty().bindBidirectional(viewModel.getTemperatureProperty());
+    filterLabel.textProperty().bind(viewModel.getTemperatureProperty());
+    filterField.textProperty().bindBidirectional(viewModel.getThermometerIdProperty());
   }
 
   public void reset()
