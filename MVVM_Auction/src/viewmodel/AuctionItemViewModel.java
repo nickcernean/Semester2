@@ -33,7 +33,9 @@ public class AuctionItemViewModel implements PropertyChangeListener
     this.end = new SimpleBooleanProperty();
     this.currentBidTitle = new SimpleStringProperty();
 
-    
+    model.addListener("bid",evt -> propertyChange(evt));
+    model.addListener("time",evt -> propertyChange(evt));
+    model.addListener("end",evt -> propertyChange(evt));
   }
 
   public void clear()
@@ -107,8 +109,8 @@ public class AuctionItemViewModel implements PropertyChangeListener
     Platform.runLater(() -> {
       bidder.set(evt.getNewValue() + "");
     });
-    Platform.runLater(() -> {
-      currentBid.set(Integer.parseInt(evt.getNewValue() + ""));
-    });
+//    Platform.runLater(() -> {
+//      currentBid.set((Integer) evt.getNewValue());
+//    });
   }
 }

@@ -29,17 +29,15 @@ public class AuctionItem
     Bid oldBid = currentBid;
     if (getTimerSeconds() <= 0)
     {
-      throw new IllegalArgumentException("Bid ended");
+      return false;
     }
-    else if (bidder == null || !bidder.equals(getCurrentBidder()))
+    else if (bidder != null && bidder.equals(getCurrentBidder()))
     {
-      throw new IllegalArgumentException(
-          "YOU already placed a bid/Illegal bid input");
+      return true;
     }
-    else if (currentBid == null && bid <= currentBid.getBid())
+    else if (currentBid != null && bid <= currentBid.getBid())
     {
-      throw new IllegalArgumentException(
-          "Place a bid first or place a higher bid");
+      return false;
     }
     currentBid = new Bid(bid, bidder);
     property.firePropertyChange("bid", oldBid, currentBid);

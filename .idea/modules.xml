@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/Confession Chair/Confession Chair.iml" filepath="$PROJECT_DIR$/Confession Chair/Confession Chair.iml" />
       <module fileurl="file://$PROJECT_DIR$/CounterIncDecSync/CounterIncDecSync.iml" filepath="$PROJECT_DIR$/CounterIncDecSync/CounterIncDecSync.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVVM_Auction/MVVM_Auction.iml" filepath="$PROJECT_DIR$/MVVM_Auction/MVVM_Auction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MVVM_Exercises_InParts/MVVM_Exercises_InParts.iml" filepath="$PROJECT_DIR$/MVVM_Exercises_InParts/MVVM_Exercises_InParts.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVVM_TemperatureConverter_v4/MVVM_TemperatureConverter_v4.iml" filepath="$PROJECT_DIR$/MVVM_TemperatureConverter_v4/MVVM_TemperatureConverter_v4.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVVM_TemperaturePresenter/MVVM_TemperaturePresenter.iml" filepath="$PROJECT_DIR$/MVVM_TemperaturePresenter/MVVM_TemperaturePresenter.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVVM_Uppercase/MVVM_Uppercase.iml" filepath="$PROJECT_DIR$/MVVM_Uppercase/MVVM_Uppercase.iml" />
@@ -29,13 +30,16 @@
       <module fileurl="file://$PROJECT_DIR$/SocketChatServer/SocketChatServer.iml" filepath="$PROJECT_DIR$/SocketChatServer/SocketChatServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/SocketTasklist/SocketTasklist.iml" filepath="$PROJECT_DIR$/SocketTasklist/SocketTasklist.iml" />
       <module fileurl="file://$PROJECT_DIR$/SocketUDP_Uppercase/SocketUDP_Uppercase.iml" filepath="$PROJECT_DIR$/SocketUDP_Uppercase/SocketUDP_Uppercase.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Sockets Login-Json/Sockets Login-Json.iml" filepath="$PROJECT_DIR$/Sockets Login-Json/Sockets Login-Json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sockets Login-Json/Sockets Login-Json_Server.iml" filepath="$PROJECT_DIR$/Sockets Login-Json/Sockets Login-Json_Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sockets-Uppercase/Sockets-Uppercase.iml" filepath="$PROJECT_DIR$/Sockets-Uppercase/Sockets-Uppercase.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sockets_ChatSystem/Sockets_ChatSystem.iml" filepath="$PROJECT_DIR$/Sockets_ChatSystem/Sockets_ChatSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sockets_Chat_Multithreading/Sockets_Chat_Multithreading.iml" filepath="$PROJECT_DIR$/Sockets_Chat_Multithreading/Sockets_Chat_Multithreading.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sockets_Chat_Multithreading_v2/Sockets_Chat_Multithreading_v2.iml" filepath="$PROJECT_DIR$/Sockets_Chat_Multithreading_v2/Sockets_Chat_Multithreading_v2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sockets_Counting/Sockets_Counting.iml" filepath="$PROJECT_DIR$/Sockets_Counting/Sockets_Counting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sockets_Login_Json_Client/Sockets_Login_Json_Client.iml" filepath="$PROJECT_DIR$/Sockets_Login_Json_Client/Sockets_Login_Json_Client.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sockets_Login_Multithread/Sockets_Login_Multithread.iml" filepath="$PROJECT_DIR$/Sockets_Login_Multithread/Sockets_Login_Multithread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sockets_Student_Json/Sockets_Student_Json.iml" filepath="$PROJECT_DIR$/Sockets_Student_Json/Sockets_Student_Json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sockets_TaskList_Json/Sockets_TaskList_Json.iml" filepath="$PROJECT_DIR$/Sockets_TaskList_Json/Sockets_TaskList_Json.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sockets_UpperLowerCase/Sockets_UpperLowerCase.iml" filepath="$PROJECT_DIR$/Sockets_UpperLowerCase/Sockets_UpperLowerCase.iml" />
       <module fileurl="file://$PROJECT_DIR$/State-Door_v1/State-Door_v1.iml" filepath="$PROJECT_DIR$/State-Door_v1/State-Door_v1.iml" />
       <module fileurl="file://$PROJECT_DIR$/State-Door_v2/State-Door_v2.iml" filepath="$PROJECT_DIR$/State-Door_v2/State-Door_v2.iml" />

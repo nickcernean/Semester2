@@ -18,7 +18,6 @@ public class UserClientHandler implements Runnable
   private Gson gson;
   private String clientIp;
   private Model model;
-  private UserPackage userPackage;
 
   public UserClientHandler(Socket socket, Model model) throws IOException
   {
@@ -29,17 +28,37 @@ public class UserClientHandler implements Runnable
     this.out = new PrintWriter(socket.getOutputStream(), true);
     this.gson = new Gson();
     this.clientIp = "";
-    this.running = true;
-    this.userPackage = new UserPackage();
+    this.running = false;
+
   }
 
-  public void close()
+  public void close() throws IOException
   {
-
+    running = false;
+    socket.close();
   }
 
   @Override public void run()
   {
+    running = true;
+    try
+    {
+      if (running)
+      {
+        String fromClient = in.readLine();
+        System.out.println("Server> " + fromClient);
+        UserPackage userPackage = gson.fromJson(fromClient, UserPackage.class);
+        model.addUser(userPackage.getUser(), userPackage.getPassword());
+        out.println("Success : you are now logged in");
+        close();
+      }
+    }
+    catch (IOException e)
+    {
+      running = true;
+      e.printStackTrace();
+      out.println("Server> " + e.getMessage());
+    }
 
   }
 }

@@ -71,7 +71,7 @@
                         <Font size="18.0" />
                     </font>
                 </Label>
-                <TextField fx:id="bidField" onAction="#bidOnAction" prefHeight="39.0" prefWidth="114.0">
+                <TextField fx:id="bidField" prefHeight="39.0" prefWidth="114.0">
                     <font>
                         <Font size="18.0" />
                     </font>

@@ -27,16 +27,13 @@ public class AuctionItemViewController
     //To DO the bindings
     itemLabel.textProperty().bind(viewModel.getItemProperty());
     timeLabel.textProperty().bind(viewModel.getTimeProperty());
-
-    currentBidLabel.textProperty()
-        .bind(viewModel.getCurrentBidProperty().asString());
-
     currentBidderLabel.textProperty()
         .bind(viewModel.getCurrentBidderProperty());
+    currentBidLabel.textProperty()
+        .bind(viewModel.getCurrentBidProperty().asString());
+    //    currentBidLabel.textProperty().bind(new StringIntegerConverter(1).toString(viewModel.getCurrentBidProperty()));
 
-//    currentBidLabel.textProperty().bind(new StringIntegerConverter(1).toString(viewModel.getCurrentBidProperty()));
-
-    bidField.textProperty().bindBidirectional(viewModel.getBidderProperty());
+    //    bidField.textProperty().bindBidirectional(viewModel.);
     errorLabel.textProperty().bind(viewModel.getErrorProperty());
     currentBidTitle.textProperty().bind(viewModel.getCurrentBidTitleProperty());
   }
