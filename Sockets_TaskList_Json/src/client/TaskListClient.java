@@ -1,5 +1,8 @@
 package client;
 
+import com.google.gson.Gson;
+import model.Task;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -7,12 +10,18 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.Scanner;
 
+
+
+
 public class TaskListClient
 {
+  private static final String RED ="\u001B[31m";
   private Socket socket;
   private BufferedReader in;
   private PrintWriter out;
   private Scanner input;
+  public static final String RESET = "\u001B[0m";
+  public static final String PURPLE = "\u001B[35m";
 
   public TaskListClient(String host, int port) throws IOException
   {
@@ -44,6 +53,7 @@ public class TaskListClient
 
   public void execute() throws IOException
   {
+    Gson gson = new Gson();
     while (true)
     {
 
@@ -58,17 +68,31 @@ public class TaskListClient
             writeToSever("ADD");//Sending 1==Reading 1
             System.out.println("Enter the task: ");
             String inputTask = input.next(); //Writing 1
-            writeToSever(inputTask);//Sending 2==Reading 2
+
             input.nextLine();
+
             System.out.println("Enter the estimated time:");
             long time1 = input.nextLong();//Writing 2
-            String time = String.valueOf(time1);
-            writeToSever(time);//Sending 3==Reading 3
+
+            Task task = new Task(inputTask, time1);
+            String json = gson.toJson(task);
+
+            writeToSever(json);//Sending 3==Reading 3
+
             System.out.println(readFromServer());
             break;
           case 2:
             writeToSever("GET");
-            System.out.println(readFromServer());
+            String reply = readFromServer();
+            if (!reply.equals("null"))
+            {
+              Task task1 = gson.fromJson(reply, Task.class);
+              System.out.println(PURPLE + "Server> " + task1 + RESET);
+            }
+            else
+            {
+              System.out.println(RED + "Server> ADD a task please!" + RESET);
+            }
             break;
           case 3:
             writeToSever("SIZE");

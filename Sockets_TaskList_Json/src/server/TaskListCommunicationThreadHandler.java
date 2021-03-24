@@ -1,5 +1,6 @@
 package server;
 
+import com.google.gson.Gson;
 import model.Task;
 import model.TaskList;
 
@@ -48,6 +49,7 @@ public class TaskListCommunicationThreadHandler implements Runnable
 
   @Override public void run()
   {
+    Gson gson = new Gson();
     while (true)
     {
       String message2 = readFromClient();///Reading 1
@@ -57,21 +59,23 @@ public class TaskListCommunicationThreadHandler implements Runnable
         switch (message2)
         {
           case "ADD":
-            String taskName = readFromClient();//Reading 2
-            System.out.println(taskName);
-
-            String time1 = readFromClient();//Reading 3
-            long estimatedTime = Integer.parseInt(time1);
-            System.out.println(estimatedTime);
-
-            taskList.add(new Task(taskName, estimatedTime));
+            String taskData = readFromClient();//Reading 2
+            Task task = gson.fromJson(taskData, Task.class);
+            System.out.println(taskData);
+            taskList.add(task);
             writeToClient(PURPLE + "Server> Task has been added" + RESET);
             break;
           case "GET":
-            Task getTask = taskList.getAndRemoveNextTask();
-            writeToClient(
-                PURPLE + "Server> " + getTask.getText() + ": " + getTask
-                    .getEstimatedTime() + RESET);
+            Task task1 = taskList.getAndRemoveNextTask();
+            if (task1 != null)
+            {
+              String json = gson.toJson(task1);
+              writeToClient(json);
+            }
+            else
+            {
+              writeToClient("null");
+            }
             break;
           case "SIZE":
             writeToClient(

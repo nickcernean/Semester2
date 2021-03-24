@@ -38,6 +38,7 @@
       <module fileurl="file://$PROJECT_DIR$/Sockets_Counting/Sockets_Counting.iml" filepath="$PROJECT_DIR$/Sockets_Counting/Sockets_Counting.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sockets_Login_Json_Client/Sockets_Login_Json_Client.iml" filepath="$PROJECT_DIR$/Sockets_Login_Json_Client/Sockets_Login_Json_Client.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sockets_Login_Multithread/Sockets_Login_Multithread.iml" filepath="$PROJECT_DIR$/Sockets_Login_Multithread/Sockets_Login_Multithread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sockets_Message/Sockets_Message.iml" filepath="$PROJECT_DIR$/Sockets_Message/Sockets_Message.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sockets_Student_Json/Sockets_Student_Json.iml" filepath="$PROJECT_DIR$/Sockets_Student_Json/Sockets_Student_Json.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sockets_TaskList_Json/Sockets_TaskList_Json.iml" filepath="$PROJECT_DIR$/Sockets_TaskList_Json/Sockets_TaskList_Json.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sockets_UpperLowerCase/Sockets_UpperLowerCase.iml" filepath="$PROJECT_DIR$/Sockets_UpperLowerCase/Sockets_UpperLowerCase.iml" />

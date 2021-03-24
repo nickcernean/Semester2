@@ -11,23 +11,23 @@ public class Task
     this.estimatedTime = estimatedTime;
   }
 
-  public String getText()
+  public synchronized String getText()
   {
     return text;
   }
 
-  public long getEstimatedTime()
+  public synchronized long  getEstimatedTime()
   {
     return estimatedTime;
   }
 
-  public void setEstimatedTime(long estimatedTime)
+  public synchronized void setEstimatedTime(long estimatedTime)
   {
     this.estimatedTime = estimatedTime;
   }
 
-   public String toString()
+   public synchronized String toString()
   {
-    return text + ", ( Estimated time=" + estimatedTime + ")";
+    return text +": "+ estimatedTime;
   }
 }
