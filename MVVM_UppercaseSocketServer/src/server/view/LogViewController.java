@@ -1,15 +1,15 @@
-package view;
+package server.view;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.Region;
-import viewmodel.LogViewModel;
+import server.viewmodel.LogViewModel;
 
 public class LogViewController
 {
-
+  public TextField inputField;
   @FXML private ListView<String> logList;
   private Region root;
   private LogViewModel logViewModel;
@@ -21,6 +21,8 @@ public class LogViewController
     this.logViewModel = viewModel;
     this.root = root;
     logList.setItems(viewModel.getLogs());
+    inputField.textProperty()
+        .bindBidirectional(viewModel.getMessageProperty());
   }
 
   public void reset()
@@ -33,10 +35,8 @@ public class LogViewController
     return root;
   }
 
-  @FXML private void onBack()
+  @FXML public void onEnter(ActionEvent event)
   {
-    viewHandler.openView("convert");
+
   }
-
-
 }

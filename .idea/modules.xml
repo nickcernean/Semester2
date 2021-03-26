@@ -14,7 +14,9 @@
       <module fileurl="file://$PROJECT_DIR$/MVVM_TemperatureConverter_v4/MVVM_TemperatureConverter_v4.iml" filepath="$PROJECT_DIR$/MVVM_TemperatureConverter_v4/MVVM_TemperatureConverter_v4.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVVM_TemperaturePresenter/MVVM_TemperaturePresenter.iml" filepath="$PROJECT_DIR$/MVVM_TemperaturePresenter/MVVM_TemperaturePresenter.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVVM_Uppercase/MVVM_Uppercase.iml" filepath="$PROJECT_DIR$/MVVM_Uppercase/MVVM_Uppercase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MVVM_UppercaseSocketServer/MVVM_UppercaseSocketServer.iml" filepath="$PROJECT_DIR$/MVVM_UppercaseSocketServer/MVVM_UppercaseSocketServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVVM_Uppercase_Log/MVVM_Uppercase_Log.iml" filepath="$PROJECT_DIR$/MVVM_Uppercase_Log/MVVM_Uppercase_Log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MVVM_Uppercase_SocketClient/MVVM_Uppercase_SocketClient.iml" filepath="$PROJECT_DIR$/MVVM_Uppercase_SocketClient/MVVM_Uppercase_SocketClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer-Football/Observer-Football.iml" filepath="$PROJECT_DIR$/Observer-Football/Observer-Football.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer-TemperatureConverter_v2/Observer-TemperatureConverter_v2.iml" filepath="$PROJECT_DIR$/Observer-TemperatureConverter_v2/Observer-TemperatureConverter_v2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer-TrafficLight/Observer-TrafficLight.iml" filepath="$PROJECT_DIR$/Observer-TrafficLight/Observer-TrafficLight.iml" />
