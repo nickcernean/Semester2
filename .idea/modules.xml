@@ -24,6 +24,13 @@
       <module fileurl="file://$PROJECT_DIR$/Observer_TemperatureConverter_v3/Observer_TemperatureConverter_v3.iml" filepath="$PROJECT_DIR$/Observer_TemperatureConverter_v3/Observer_TemperatureConverter_v3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer_ThermometerGUI/Observer_ThermometerGUI.iml" filepath="$PROJECT_DIR$/Observer_ThermometerGUI/Observer_ThermometerGUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/PieChartApp/PieChartApp.iml" filepath="$PROJECT_DIR$/PieChartApp/PieChartApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RMI_Adding/RMI_Adding.iml" filepath="$PROJECT_DIR$/RMI_Adding/RMI_Adding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RMI_Adding_Callback/RMI_Adding_Callback.iml" filepath="$PROJECT_DIR$/RMI_Adding_Callback/RMI_Adding_Callback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RMI_Adding_TaskList/RMI_Adding_TaskList.iml" filepath="$PROJECT_DIR$/RMI_Adding_TaskList/RMI_Adding_TaskList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RMI_Login_Client/RMI_Login_Client.iml" filepath="$PROJECT_DIR$/RMI_Login_Client/RMI_Login_Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RMI_Login_Server/RMI_Login_Server.iml" filepath="$PROJECT_DIR$/RMI_Login_Server/RMI_Login_Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RMI_Observer_Tasklist/RMI_Observer_Tasklist.iml" filepath="$PROJECT_DIR$/RMI_Observer_Tasklist/RMI_Observer_Tasklist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RMI_SecurityManager/RMI_SecurityManager.iml" filepath="$PROJECT_DIR$/RMI_SecurityManager/RMI_SecurityManager.iml" />
       <module fileurl="file://$PROJECT_DIR$/SDJ2-Assignment/SDJ2-Assignment.iml" filepath="$PROJECT_DIR$/SDJ2-Assignment/SDJ2-Assignment.iml" />
       <module fileurl="file://$PROJECT_DIR$/Semester2.iml" filepath="$PROJECT_DIR$/Semester2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Socket LoginServer/Socket Login.iml" filepath="$PROJECT_DIR$/Socket LoginServer/Socket Login.iml" />
@@ -49,6 +56,8 @@
       <module fileurl="file://$PROJECT_DIR$/State-Door_v2/State-Door_v2.iml" filepath="$PROJECT_DIR$/State-Door_v2/State-Door_v2.iml" />
       <module fileurl="file://$PROJECT_DIR$/State-Phone_v1/State-Phone_v1.iml" filepath="$PROJECT_DIR$/State-Phone_v1/State-Phone_v1.iml" />
       <module fileurl="file://$PROJECT_DIR$/State-Phone_v2/State-Phone_v2.iml" filepath="$PROJECT_DIR$/State-Phone_v2/State-Phone_v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StudentList_TCP_Observer_MVVM_Client/StudentList_TCP_Observer_MVVM_Client.iml" filepath="$PROJECT_DIR$/StudentList_TCP_Observer_MVVM_Client/StudentList_TCP_Observer_MVVM_Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StudentList_TCP_Observer_MVVM_Server/StudentList_TCP_Observer_MVVM_Server.iml" filepath="$PROJECT_DIR$/StudentList_TCP_Observer_MVVM_Server/StudentList_TCP_Observer_MVVM_Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/TaskList/TaskList.iml" filepath="$PROJECT_DIR$/TaskList/TaskList.iml" />
       <module fileurl="file://$PROJECT_DIR$/Threads-Adding/Threads-Adding.iml" filepath="$PROJECT_DIR$/Threads-Adding/Threads-Adding.iml" />
       <module fileurl="file://$PROJECT_DIR$/Threads-CounterIncrementator_v1/Threads-CounterIncrementator_v1.iml" filepath="$PROJECT_DIR$/Threads-CounterIncrementator_v1/Threads-CounterIncrementator_v1.iml" />

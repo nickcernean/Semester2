@@ -47,7 +47,6 @@ public class ServerSocketHandler implements Runnable
           break;
         }
         pool.broadcast(message);
-
       }
 
     }
