@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/A Bar/A Bar.iml" filepath="$PROJECT_DIR$/A Bar/A Bar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Adapter-QueueListBased/Adapter-QueueListBased.iml" filepath="$PROJECT_DIR$/Adapter-QueueListBased/Adapter-QueueListBased.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Adapter-SynchronizedQueue/Adapter-SynchronizedQueue.iml" filepath="$PROJECT_DIR$/Adapter-SynchronizedQueue/Adapter-SynchronizedQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assignment3_Client/Assignment3_Client.iml" filepath="$PROJECT_DIR$/Assignment3_Client/Assignment3_Client.iml" />
       <module fileurl="file://$PROJECT_DIR$/Billy's Car_v1/Billy's Car_v1.iml" filepath="$PROJECT_DIR$/Billy's Car_v1/Billy's Car_v1.iml" />
       <module fileurl="file://$PROJECT_DIR$/BurgerBar/BurgerBar.iml" filepath="$PROJECT_DIR$/BurgerBar/BurgerBar.iml" />
       <module fileurl="file://$PROJECT_DIR$/CharApp-MVVMObserver/CharApp-MVVMObserver.iml" filepath="$PROJECT_DIR$/CharApp-MVVMObserver/CharApp-MVVMObserver.iml" />
@@ -24,6 +27,9 @@
       <module fileurl="file://$PROJECT_DIR$/Observer_TemperatureConverter_v3/Observer_TemperatureConverter_v3.iml" filepath="$PROJECT_DIR$/Observer_TemperatureConverter_v3/Observer_TemperatureConverter_v3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer_ThermometerGUI/Observer_ThermometerGUI.iml" filepath="$PROJECT_DIR$/Observer_ThermometerGUI/Observer_ThermometerGUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/PieChartApp/PieChartApp.iml" filepath="$PROJECT_DIR$/PieChartApp/PieChartApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Proxy-Logger/Proxy-Logger.iml" filepath="$PROJECT_DIR$/Proxy-Logger/Proxy-Logger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Proxy-Seabear/Proxy-Seabear.iml" filepath="$PROJECT_DIR$/Proxy-Seabear/Proxy-Seabear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Proxy-ThreadList/Proxy-ThreadList.iml" filepath="$PROJECT_DIR$/Proxy-ThreadList/Proxy-ThreadList.iml" />
       <module fileurl="file://$PROJECT_DIR$/RMI_Adding/RMI_Adding.iml" filepath="$PROJECT_DIR$/RMI_Adding/RMI_Adding.iml" />
       <module fileurl="file://$PROJECT_DIR$/RMI_Adding_Callback/RMI_Adding_Callback.iml" filepath="$PROJECT_DIR$/RMI_Adding_Callback/RMI_Adding_Callback.iml" />
       <module fileurl="file://$PROJECT_DIR$/RMI_Adding_TaskList/RMI_Adding_TaskList.iml" filepath="$PROJECT_DIR$/RMI_Adding_TaskList/RMI_Adding_TaskList.iml" />
@@ -56,13 +62,20 @@
       <module fileurl="file://$PROJECT_DIR$/State-Door_v2/State-Door_v2.iml" filepath="$PROJECT_DIR$/State-Door_v2/State-Door_v2.iml" />
       <module fileurl="file://$PROJECT_DIR$/State-Phone_v1/State-Phone_v1.iml" filepath="$PROJECT_DIR$/State-Phone_v1/State-Phone_v1.iml" />
       <module fileurl="file://$PROJECT_DIR$/State-Phone_v2/State-Phone_v2.iml" filepath="$PROJECT_DIR$/State-Phone_v2/State-Phone_v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StudentList_RMI_Observer_MVVM_Client/StudentList_RMI_Observer_MVVM_Client.iml" filepath="$PROJECT_DIR$/StudentList_RMI_Observer_MVVM_Client/StudentList_RMI_Observer_MVVM_Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StudentList_RMI_Observer_MVVM_Server/StudentList_RMI_Observer_MVVM_Server.iml" filepath="$PROJECT_DIR$/StudentList_RMI_Observer_MVVM_Server/StudentList_RMI_Observer_MVVM_Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/StudentList_TCP_Observer_MVVM_Client/StudentList_TCP_Observer_MVVM_Client.iml" filepath="$PROJECT_DIR$/StudentList_TCP_Observer_MVVM_Client/StudentList_TCP_Observer_MVVM_Client.iml" />
       <module fileurl="file://$PROJECT_DIR$/StudentList_TCP_Observer_MVVM_Server/StudentList_TCP_Observer_MVVM_Server.iml" filepath="$PROJECT_DIR$/StudentList_TCP_Observer_MVVM_Server/StudentList_TCP_Observer_MVVM_Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/TaskList/TaskList.iml" filepath="$PROJECT_DIR$/TaskList/TaskList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestingStack/TestingStack.iml" filepath="$PROJECT_DIR$/TestingStack/TestingStack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestingStack2/TestingStack2.iml" filepath="$PROJECT_DIR$/TestingStack2/TestingStack2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestingStack3/TestingStack3.iml" filepath="$PROJECT_DIR$/TestingStack3/TestingStack3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TesttingStack4/TesttingStack4.iml" filepath="$PROJECT_DIR$/TesttingStack4/TesttingStack4.iml" />
       <module fileurl="file://$PROJECT_DIR$/Threads-Adding/Threads-Adding.iml" filepath="$PROJECT_DIR$/Threads-Adding/Threads-Adding.iml" />
       <module fileurl="file://$PROJECT_DIR$/Threads-CounterIncrementator_v1/Threads-CounterIncrementator_v1.iml" filepath="$PROJECT_DIR$/Threads-CounterIncrementator_v1/Threads-CounterIncrementator_v1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Threads-Thermometer/Threads-TemperatureConverter_v1.iml" filepath="$PROJECT_DIR$/Threads-Thermometer/Threads-TemperatureConverter_v1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Threads-Thermometer01/Threads-Thermometer01.iml" filepath="$PROJECT_DIR$/Threads-Thermometer01/Threads-Thermometer01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WhiteBox-Clock/WhiteBox-Clock.iml" filepath="$PROJECT_DIR$/WhiteBox-Clock/WhiteBox-Clock.iml" />
     </modules>
   </component>
 </project>
