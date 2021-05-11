@@ -7,11 +7,16 @@
       <module fileurl="file://$PROJECT_DIR$/Adapter-SynchronizedQueue/Adapter-SynchronizedQueue.iml" filepath="$PROJECT_DIR$/Adapter-SynchronizedQueue/Adapter-SynchronizedQueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/Assignment3_Client/Assignment3_Client.iml" filepath="$PROJECT_DIR$/Assignment3_Client/Assignment3_Client.iml" />
       <module fileurl="file://$PROJECT_DIR$/Billy's Car_v1/Billy's Car_v1.iml" filepath="$PROJECT_DIR$/Billy's Car_v1/Billy's Car_v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BlockingQueue/BlockingQueue.iml" filepath="$PROJECT_DIR$/BlockingQueue/BlockingQueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/BurgerBar/BurgerBar.iml" filepath="$PROJECT_DIR$/BurgerBar/BurgerBar.iml" />
       <module fileurl="file://$PROJECT_DIR$/CharApp-MVVMObserver/CharApp-MVVMObserver.iml" filepath="$PROJECT_DIR$/CharApp-MVVMObserver/CharApp-MVVMObserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/Computer Simulator/Computer Simulator.iml" filepath="$PROJECT_DIR$/Computer Simulator/Computer Simulator.iml" />
       <module fileurl="file://$PROJECT_DIR$/Confession Chair/Confession Chair.iml" filepath="$PROJECT_DIR$/Confession Chair/Confession Chair.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Producer/Consumer-CookieJar/Producer/Consumer-CookieJar.iml" filepath="$PROJECT_DIR$/Producer/Consumer-CookieJar/Producer/Consumer-CookieJar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CookieJar/CookieJar.iml" filepath="$PROJECT_DIR$/CookieJar/CookieJar.iml" />
       <module fileurl="file://$PROJECT_DIR$/CounterIncDecSync/CounterIncDecSync.iml" filepath="$PROJECT_DIR$/CounterIncDecSync/CounterIncDecSync.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Factory_Drinks/Factory_Drinks.iml" filepath="$PROJECT_DIR$/Factory_Drinks/Factory_Drinks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Factory_StarSign/Factory_StarSign.iml" filepath="$PROJECT_DIR$/Factory_StarSign/Factory_StarSign.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVVM_Auction/MVVM_Auction.iml" filepath="$PROJECT_DIR$/MVVM_Auction/MVVM_Auction.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVVM_Exercises_InParts/MVVM_Exercises_InParts.iml" filepath="$PROJECT_DIR$/MVVM_Exercises_InParts/MVVM_Exercises_InParts.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVVM_TemperatureConverter_v4/MVVM_TemperatureConverter_v4.iml" filepath="$PROJECT_DIR$/MVVM_TemperatureConverter_v4/MVVM_TemperatureConverter_v4.iml" />
@@ -20,6 +25,8 @@
       <module fileurl="file://$PROJECT_DIR$/MVVM_UppercaseSocketServer/MVVM_UppercaseSocketServer.iml" filepath="$PROJECT_DIR$/MVVM_UppercaseSocketServer/MVVM_UppercaseSocketServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVVM_Uppercase_Log/MVVM_Uppercase_Log.iml" filepath="$PROJECT_DIR$/MVVM_Uppercase_Log/MVVM_Uppercase_Log.iml" />
       <module fileurl="file://$PROJECT_DIR$/MVVM_Uppercase_SocketClient/MVVM_Uppercase_SocketClient.iml" filepath="$PROJECT_DIR$/MVVM_Uppercase_SocketClient/MVVM_Uppercase_SocketClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Multiton_Log/Multiton_Log.iml" filepath="$PROJECT_DIR$/Multiton_Log/Multiton_Log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Multiton_ProjectGlossary/Multiton_ProjectGlossary.iml" filepath="$PROJECT_DIR$/Multiton_ProjectGlossary/Multiton_ProjectGlossary.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer-Football/Observer-Football.iml" filepath="$PROJECT_DIR$/Observer-Football/Observer-Football.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer-TemperatureConverter_v2/Observer-TemperatureConverter_v2.iml" filepath="$PROJECT_DIR$/Observer-TemperatureConverter_v2/Observer-TemperatureConverter_v2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer-TrafficLight/Observer-TrafficLight.iml" filepath="$PROJECT_DIR$/Observer-TrafficLight/Observer-TrafficLight.iml" />
@@ -37,8 +44,13 @@
       <module fileurl="file://$PROJECT_DIR$/RMI_Login_Server/RMI_Login_Server.iml" filepath="$PROJECT_DIR$/RMI_Login_Server/RMI_Login_Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/RMI_Observer_Tasklist/RMI_Observer_Tasklist.iml" filepath="$PROJECT_DIR$/RMI_Observer_Tasklist/RMI_Observer_Tasklist.iml" />
       <module fileurl="file://$PROJECT_DIR$/RMI_SecurityManager/RMI_SecurityManager.iml" filepath="$PROJECT_DIR$/RMI_SecurityManager/RMI_SecurityManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reader-Writer_HeavyWeightlist_v1/Reader-Writer_HeavyWeightlist_v1.iml" filepath="$PROJECT_DIR$/Reader-Writer_HeavyWeightlist_v1/Reader-Writer_HeavyWeightlist_v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reader-Writer_Toilet/Reader-Writer_Toilet.iml" filepath="$PROJECT_DIR$/Reader-Writer_Toilet/Reader-Writer_Toilet.iml" />
       <module fileurl="file://$PROJECT_DIR$/SDJ2-Assignment/SDJ2-Assignment.iml" filepath="$PROJECT_DIR$/SDJ2-Assignment/SDJ2-Assignment.iml" />
       <module fileurl="file://$PROJECT_DIR$/Semester2.iml" filepath="$PROJECT_DIR$/Semester2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Singleton_Log_v1/Singleton_Log_v1.iml" filepath="$PROJECT_DIR$/Singleton_Log_v1/Singleton_Log_v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Singleton_Log_v2/Singleton_Log_v2.iml" filepath="$PROJECT_DIR$/Singleton_Log_v2/Singleton_Log_v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Singleton_ProjectGlossary/Singleton_ProjectGlossary.iml" filepath="$PROJECT_DIR$/Singleton_ProjectGlossary/Singleton_ProjectGlossary.iml" />
       <module fileurl="file://$PROJECT_DIR$/Socket LoginServer/Socket Login.iml" filepath="$PROJECT_DIR$/Socket LoginServer/Socket Login.iml" />
       <module fileurl="file://$PROJECT_DIR$/Socket Login Client/Socket Login Client.iml" filepath="$PROJECT_DIR$/Socket Login Client/Socket Login Client.iml" />
       <module fileurl="file://$PROJECT_DIR$/SocketChatClient/SocketChatClient.iml" filepath="$PROJECT_DIR$/SocketChatClient/SocketChatClient.iml" />
