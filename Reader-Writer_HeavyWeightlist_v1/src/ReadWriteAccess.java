@@ -1,3 +1,7 @@
-public class ReadWriteAccess
+public interface ReadWriteAccess
 {
+  ReadList acquireRead();
+  void releaseRead();
+  ReadWriteList acquireWrite();
+  void releaseWrite(int I);
 }

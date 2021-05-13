@@ -13,7 +13,7 @@ public class HeavyWeightList implements ReadWriteList
     this.secondsToWrite = secondsToWrite;
   }
 
-  @Override public void write(int value)
+  @Override public synchronized void write(int value)
   {
     list.add(value);
     if (list.size() > 10000)
@@ -23,10 +23,10 @@ public class HeavyWeightList implements ReadWriteList
     simulateThatItTakesTime(secondsToWrite);
   }
 
-  @Override public int read()
+  @Override public synchronized int read()
   {
     int sum = 0;
-    for (int i=0;i<)
+    for (int i = 0; i < list.size(); i++)
     {
       if (sum > Integer.MAX_VALUE - list.get(i))
       {
@@ -41,7 +41,7 @@ public class HeavyWeightList implements ReadWriteList
     return sum;
   }
 
-  private void simulateThatItTakesTime(int seconds)
+  private synchronized void simulateThatItTakesTime(int seconds)
   {
     try
     {
